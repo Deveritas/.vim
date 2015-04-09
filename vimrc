@@ -1,11 +1,11 @@
 set nocompatible
 
 filetype off
-set rtp+=~/.vim/bundle/vundle
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'kien/ctrlp.vim'
-Bundle 'aimondi/delimitMate
+Bundle 'Raimondi/delimitMate'
 Bundle 'wookiehangover/jshint.vim.git'
 Bundle 'scrooloose/nerdtree.git'
 Bundle 'raichoo/purescript-vim.git'
@@ -16,6 +16,7 @@ Bundle 'airblade/vim-gitgutter.git'
 Bundle 'elzr/vim-json.git'
 Bundle 'tpope/vim-surround.git'
 Bundle 'vimwiki/vimwiki.git'
+Plugin 'rking/ag.vim'
 syntax on
 filetype on
 filetype plugin indent on
